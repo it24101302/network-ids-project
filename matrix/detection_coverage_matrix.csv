@@ -1,0 +1,11 @@
+Rule_SID,Attack_Type,Targeted_Vulnerability,MITRE_ATT&CK_ID,Severity,Status
+1000001,Nmap ICMP Ping Sweep,Host Discovery / Reconnaissance,T1595.002,Low,Validated
+1000002,SSH Brute Force,Password Guessing,T1110.001,Medium,Validated
+1000003,FTP Brute Force,FTP Authentication Failure,T1110,Low,Validated
+1000004,TCP SYN Flood,Network Denial of Service,T1498.001,High,Validated
+1000005,Metasploit HTTP Stager,Reverse HTTP Meterpreter Stager,T1071.001,High,Validated
+1000006,Nmap TCP SYN Stealth Scan,Stealth Port Scanning,T1046,Low,Validated
+1000007,VSFTPD v2.3.4 Backdoor,Remote Code Execution,T1190,High,Validated
+1000008,Samba trans2open Overflow,Remote Command Execution,T1210,High,Validated
+1000009,HTTP GET SQL Injection,Web Application SQL Injection,T1190,Medium,Validated
+1000010,HTTP Directory Traversal,Path Traversal / Arbitrary File Read,T1083,Medium,Validated
